@@ -84,8 +84,8 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-
         </plugins>
+        <finalName>devops-order-service</finalName>
     </build>
 
 </project>

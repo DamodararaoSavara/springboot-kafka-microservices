@@ -140,6 +140,7 @@
 				</executions>
 			</plugin>
 		</plugins>
+		<finalName>devops-auth-service</finalName>
 	</build>
 
 </project>
