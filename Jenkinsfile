@@ -76,18 +76,18 @@ pipeline {
         }
         stage('Docker Push Auth Service') {
              steps {
-                 bat 'docker push damodararaosavara/auth-service:latest'
+                 bat 'docker push damodararao/auth-service:latest'
              }
         }
 
         stage('Docker Push Order Service') {
              steps {
-                 bat 'docker push damodararaosavara/order-service:latest'
+                 bat 'docker push damodararao/order-service:latest'
              }
         }
         stage('Docker Push API Gateway') {
              steps {
-                 bat 'docker push damodararaosavara/api-gateway:latest'
+                 bat 'docker push damodararao/api-gateway:latest'
              }
         }
 
