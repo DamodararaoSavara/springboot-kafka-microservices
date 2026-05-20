@@ -27,7 +27,7 @@ pipeline {
         stage('Docker Build Auth Service') {
              steps {
                  dir('auth-service') {
-                     bat 'docker build -t damodararaosavara/auth-service:latest .'
+                     bat 'docker build -t damodararao/auth-service:latest .'
                  }
              }
         }
@@ -43,7 +43,7 @@ pipeline {
         stage('Docker Build Order Service') {
              steps {
                   dir('order-service') {
-                            bat 'docker build -t damodararaosavara/order-service:latest .'
+                            bat 'docker build -t damodararao/order-service:latest .'
                   }
              }
         }
@@ -58,7 +58,7 @@ pipeline {
         stage('Docker Build API Gateway') {
              steps {
                  dir('api-gateway') {
-                            bat 'docker build -t damodararaosavara/api-gateway:latest .'
+                            bat 'docker build -t damodararao/api-gateway:latest .'
                  }
              }
         }
